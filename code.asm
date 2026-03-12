@@ -1,0 +1,15 @@
+.DATA
+val1 DW 5
+val2 DW 10
+val3 DW 0
+.CODE
+start: MOV AX, [val1]
+ADD AX,10
+PUSH AX
+POP BX
+CMP AX,BX
+JZ label
+HALT
+label:MOV CX,10
+HALT
+
