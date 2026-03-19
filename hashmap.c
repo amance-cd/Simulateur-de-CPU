@@ -106,7 +106,7 @@ void afficher_hashmap(HashMap* map) {
 }
 
 
-// int main() {
+// int main() { //test de la hashmap
 //     HashMap* map = hashmap_create();
 //     // if (!map) {
 //     //     return 1;
