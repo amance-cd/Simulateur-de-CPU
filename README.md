@@ -6,6 +6,7 @@ Le projet consiste à concevoir un simulateur de CPU en C, incluant la gestion d
 Il est composé de 8 exercices, chacun permettant de développer une partie du simulateur.
 
 COMPILATION : make all
+
 Exécution : ./main code.asm
 
 Détail du projet dans "docu_projet_cpu.pdf"
